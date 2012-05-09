@@ -53,7 +53,7 @@ namespace AgileZen_Excel_Plugin
                 azStory.color = story.SelectSingleNode("color").InnerText;
                 azStory.phase = story.SelectSingleNode("phase/name").InnerText;
                 azStory.text = story.SelectSingleNode("text").InnerText;
-                 
+                
                 storyList.Add(azStory);                
             }
 
